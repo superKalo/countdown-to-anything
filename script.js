@@ -2,7 +2,7 @@
 var targetDate = new Date(targetDateFromConfig).getTime();
 
 var days, hours, minutes, seconds;
-var countdown = document.getElementById("countdown");
+var countdown = document.getElementById('countdown');
 
 // Helper function to wrap up the final string
 function formatCountdownString(unit, single, plural){
@@ -17,7 +17,7 @@ function formatCountdownString(unit, single, plural){
 
 // Update the countdown element every 1 second
 setInterval(function(){
-    // find the amount of "seconds" between now and target
+    // find the amount of 'seconds' between now and target
     var current_date = new Date().getTime();
     var seconds_left = (targetDate - current_date) / 1000;
 
