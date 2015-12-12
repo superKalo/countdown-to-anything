@@ -38,7 +38,7 @@ setInterval(function(){
     message += formatCountdownString(seconds, 'секунда', 'секунди');
 
     if (message === '') {
-        countdown.innerHTML = 'Край! :)';
+        countdown.innerHTML = 'Свърши! Крайният срок премина :)';
     } else {
         countdown.innerHTML = message;
     }

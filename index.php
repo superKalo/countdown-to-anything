@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="style.css" />
 
+    <?php require('config.php'); ?>
+
     <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -17,11 +19,17 @@
 </head>
 
 <body>
-    <section class="main-container">
-        <div id="countdown"></div>
+    <section class="container">
+        <img src="<?= $image ?>" class="container__img" width="200" height="200" alt="Event Image" />
+
+        <pre class="container__msg">
+
+<?= $message ?> <span id="countdown" class="container__countdown"></span>
+
+        </pre>
+
     </section>
 
-    <?php require('config.php'); ?>
 
     <script>
         // set the date we're counting down to
