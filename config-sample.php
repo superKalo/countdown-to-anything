@@ -1,13 +1,12 @@
 <?php
 
+$lang = 'en';
 $deadline = 'Aug 18, 2020';
 $image = 'https://avatars0.githubusercontent.com/u/10864739?v=3&s=200';
 $message = <<<EOT
-Хей,
+Hey,
 
-Има интересно събитие, но не остава много време до него. Побързайте!
+There's something interesting happening on Aug 18, 2020. This is a countdowner this date. You can create just the same countdowner to any date with any message, <a href="https://github.com/superKalo/countdown-to-anything" target="_blank">see my project here</a>.
 
-Успех!
-
-Краен срок: ~10 дни, до 20.12.2015, остават
+Deadline coming in:
 EOT;

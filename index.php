@@ -20,7 +20,9 @@
 
 <body>
     <section class="container">
-        <img src="<?= $image ?>" class="container__img" width="200" height="200" alt="Event Image" />
+        <?php if ($image): ?>
+            <img src="<?= $image ?>" class="container__img" width="200" height="200" alt="Event Image" />
+        <?php endif; ?>
 
         <pre class="container__msg">
 
@@ -34,6 +36,11 @@
     <script>
         // set the date we're counting down to
         var targetDateFromConfig = '<?= $deadline ?>';
+
+        <?php if ($lang): ?>
+            // set the default language
+            var defaultLang = '<?= $lang ?>';
+        <?php endif; ?>
     </script>
 
     <script src="script.js"></script>
