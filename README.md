@@ -1,6 +1,6 @@
 # Countdown to Anything Responsive Web Page
 
-The world's most simple countdown to any event page.
+The world's most simple countdown to any event page. [See demo](http://countdown.superkalo.com/).
 
 ## How to configure:
 
